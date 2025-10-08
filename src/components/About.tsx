@@ -67,13 +67,23 @@ export function About() {
                                     <div className="degrees-list">
                                         <div className="degree-item">
                                             <h4>{content.about.education.degree} in {content.about.education.major}</h4>
-                                            <div className="degree-period">{content.about.education.graduation}</div>
+                                            <div className="degree-details">
+                                                <div className="degree-period">{content.about.education.graduation}</div>
+                                                {content.about.education.gpa && (
+                                                    <div className="degree-gpa">GPA: {content.about.education.gpa}</div>
+                                                )}
+                                            </div>
                                         </div>
 
                                         {content.about.education.undergraduate && (
                                             <div className="degree-item">
                                                 <h4>{content.about.education.undergraduate.degree} in {content.about.education.undergraduate.major}</h4>
-                                                <div className="degree-period">{content.about.education.undergraduate.graduation}</div>
+                                                <div className="degree-details">
+                                                    <div className="degree-period">{content.about.education.undergraduate.graduation}</div>
+                                                    {content.about.education.undergraduate.gpa && (
+                                                        <div className="degree-gpa">GPA: {content.about.education.undergraduate.gpa}</div>
+                                                    )}
+                                                </div>
                                             </div>
                                         )}
                                     </div>

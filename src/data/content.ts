@@ -114,11 +114,13 @@ export const content = {
             school: "University of Oklahoma",
             degree: "Master of Science",
             major: "Finance",
+            gpa: "3.69",
             graduation: "2019-2021",
             undergraduate: {
                 school: "University of Oklahoma",
                 degree: "Bachelor of Business Administration",
                 major: "Finance",
+                gpa: "3.66",
                 graduation: "2016-2020"
             },
             extracurriculars: []
