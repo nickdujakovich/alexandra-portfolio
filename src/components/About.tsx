@@ -70,7 +70,10 @@ export function About() {
                                             <div className="degree-details">
                                                 <div className="degree-period">{content.about.education.graduation}</div>
                                                 {content.about.education.gpa && (
-                                                    <div className="degree-gpa">GPA: {content.about.education.gpa}</div>
+                                                    <div className="degree-gpa">
+                                                        <StarIcon width={14} height={14} />
+                                                        GPA: {content.about.education.gpa}
+                                                    </div>
                                                 )}
                                             </div>
                                         </div>
@@ -81,7 +84,10 @@ export function About() {
                                                 <div className="degree-details">
                                                     <div className="degree-period">{content.about.education.undergraduate.graduation}</div>
                                                     {content.about.education.undergraduate.gpa && (
-                                                        <div className="degree-gpa">GPA: {content.about.education.undergraduate.gpa}</div>
+                                                        <div className="degree-gpa">
+                                                            <StarIcon width={14} height={14} />
+                                                            GPA: {content.about.education.undergraduate.gpa}
+                                                        </div>
                                                     )}
                                                 </div>
                                             </div>
