@@ -31,3 +31,4 @@ This site is automatically deployed to GitHub Pages when changes are pushed to t
 - **Live Site**: [nickdujakovich.github.io](https://nickdujakovich.github.io)
 - **Output Directory**: `dist/`
 - **GitHub Pages**: Automatically deployed from the `dist/` folder
+# Force deployment
