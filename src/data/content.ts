@@ -134,6 +134,7 @@ export const content = {
             {
                 name: "Credit Risk Assessment Model",
                 isPersonal: false,
+                inDevelopment: false,
                 description: "Developed comprehensive credit risk model resulting in 25% reduction in loan defaults and improved portfolio performance",
                 technologies: ["Financial Modeling", "Risk Analysis", "Statistical Analysis", "Credit Scoring", "Portfolio Management"],
                 links: {
@@ -144,6 +145,7 @@ export const content = {
             {
                 name: "Financial Performance Dashboard",
                 isPersonal: false,
+                inDevelopment: false,
                 description: "Created executive-level financial dashboard providing real-time insights into key banking metrics and profitability indicators",
                 technologies: ["Power BI", "SQL", "Financial Reporting", "KPI Tracking", "Executive Analytics"],
                 links: {
@@ -154,6 +156,7 @@ export const content = {
             {
                 name: "Regulatory Compliance Framework",
                 isPersonal: false,
+                inDevelopment: false,
                 description: "Established comprehensive compliance monitoring system ensuring adherence to banking regulations and industry standards",
                 technologies: ["Risk Assessment", "Compliance Monitoring", "Regulatory Reporting", "Audit Preparation", "Documentation"],
                 links: {
@@ -164,6 +167,7 @@ export const content = {
             {
                 name: "Cost Optimization Analysis",
                 isPersonal: false,
+                inDevelopment: false,
                 description: "Led financial analysis initiative identifying cost reduction opportunities, resulting in 15% annual savings across operations",
                 technologies: ["Cost Analysis", "Financial Modeling", "Process Optimization", "Budget Planning", "ROI Analysis"],
                 links: {
