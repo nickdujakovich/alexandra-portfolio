@@ -52,7 +52,7 @@ function Layout() {
         <section id="projects" className="section"><Projects /></section>
         <section id="contact" className="section"><Contact /></section>
       </main>
-      <footer className="footer"><a href="https://nickdujakovich.github.io" target="_blank" rel="noopener noreferrer">© {new Date().getFullYear()} Nikolas Dujakovich</a></footer>
+      <footer className="footer"><a href="https://nickdujakovich.pages.dev" target="_blank" rel="noopener noreferrer">© {new Date().getFullYear()} Nikolas Dujakovich</a></footer>
     </div>
   )
 }
