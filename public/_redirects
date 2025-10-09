@@ -5,6 +5,3 @@
 /assets/*.js    /assets/*.js   200
 /assets/*.mjs   /assets/*.mjs  200
 
-# Ensure proper handling of React Router
-/alexandra-portfolio/*    /alexandra-portfolio/index.html   200
-
